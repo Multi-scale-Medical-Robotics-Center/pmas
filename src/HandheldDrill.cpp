@@ -16,7 +16,7 @@
 
  ============================================================================
  */
-#include "mmc_definitions.h"
+#include "MMC_definitions.h"
 #include "mmcpplib.h"
 #include "UDP.h"
 #include "HandheldDrill.h"		// Application header file.
