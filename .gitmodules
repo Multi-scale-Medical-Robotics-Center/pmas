@@ -1,3 +1,0 @@
-[submodule "maestro"]
-	path = maestro
-	url = git@gitlab.mrc-cuhk.com:drill/maestro.git
