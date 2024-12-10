@@ -41,3 +41,11 @@ target_link_directories(HandheldDrill.pexe PRIVATE maestro/lib/platinum)
 
 target_link_libraries(HandheldDrill.pexe MMCPPLIB MMC_APP_LIB pthread rt)
 
+add_executable(HandheldBurr-only.pexe ${SOURCE_FILES})
+
+target_include_directories(HandheldBurr-only.pexe PRIVATE ${INCLUDE_DIRECTORY})
+
+target_link_directories(HandheldBurr-only.pexe PRIVATE maestro/lib/platinum)
+
+target_link_libraries(HandheldBurr-only.pexe MMCPPLIB MMC_APP_LIB pthread rt)
+
